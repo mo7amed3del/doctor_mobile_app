@@ -70,7 +70,7 @@ class _DoctorListState extends State<DoctorList> {
                       color: Color(0xffffd500),
                     ),
                     Text(
-                      '4.9',
+                      doctor.rating.toString(),
                       style: TextStyle(fontSize: 18, color: Color(0x770000000)),
                     )
                   ],
